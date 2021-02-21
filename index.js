@@ -15,7 +15,7 @@ window.addEventListener("keydown", function(event){
     console.log(event.key);
     switch (event.key){
         case 'w':
-        case 'Up':
+        case 'ArrowUp':
                 let up = setInterval(function(){
                     y++;
                     character.style.bottom = y + 'px';
@@ -23,19 +23,19 @@ window.addEventListener("keydown", function(event){
                 console.log(x, y);
             break;
         case 'a':
-        case 'Left':
+        case 'ArrowLeft':
                 x--;
                 character.style.left = x + 'rem';
                 console.log(x, y);
             break;
         case 's':
-        case 'Down':
+        case 'ArrowDown':
                 y--;
                 character.style.bottom = y + 'rem';
                 console.log(x, y);
             break;
         case 'd':
-        case 'Right':
+        case 'ArrowRight':
                 x++;
                 character.style.left = x + 'rem';
                 console.log(x, y);
