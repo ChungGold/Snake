@@ -26,7 +26,7 @@ window.addEventListener("keydown", function(event){
         case 'ArrowLeft':
                 setInterval(function(){
                     x--;
-                    character.style.left = x + 'rem';
+                    character.style.left = x + 'px';
                 }, 10)
                 console.log(x, y);
             break;
@@ -34,7 +34,7 @@ window.addEventListener("keydown", function(event){
         case 'ArrowDown':
             setInterval(function(){
                 y--;
-                character.style.bottom = y + 'rem';
+                character.style.bottom = y + 'px';
             }, 10)
                 console.log(x, y);
             break;
@@ -42,7 +42,7 @@ window.addEventListener("keydown", function(event){
         case 'ArrowRight':
             setInterval(function(){
                 x++;
-                character.style.left = x + 'rem';
+                character.style.left = x + 'px';
             }, 10)
                 console.log(x, y);
     }
